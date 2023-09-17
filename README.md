@@ -22,6 +22,8 @@ where:
 * $r_0 \in GF(256)$ is the additive mask
 * $\cdot$ is the multiplication in the $Galois\ Field\ of\ Order\ 256$
 
+$r_0$ and $r_1$ are randomly chosen for each encryption.
+
 ## STM32L475 as the target board
 
 That's important to execute our encryption functions on a target board in order to simulate the SCA attacks and check out if our countermeasure is really efficient.<br>
